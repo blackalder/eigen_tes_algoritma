@@ -18,7 +18,8 @@ function longest($str){
 	}
 	return $max;
 }
-echo '2. ' . longest($str) . PHP_EOL;
+$long = longest($str); 
+echo '2. ' . $long . ':' . strlen($long) . ' karakter' . PHP_EOL;
 
 /** 3*/
 $input = ['xc', 'dz', 'bbb', 'dz'];
